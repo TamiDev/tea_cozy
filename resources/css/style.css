@@ -1,1 +1,19 @@
 /* Tea Cozy */
+
+body {
+  background-color: black;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+.flex-container-header {
+  display: flex;
+}
+
+.flex-container-nav {
+  display: flex;
+  justify-content: flex-end;
+}
