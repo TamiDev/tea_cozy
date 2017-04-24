@@ -12,6 +12,7 @@ body {
 h2, h3, h4 {
   margin: 0;
   padding: 10px;
+
 }
 
 /* Header Logo  */
@@ -70,9 +71,15 @@ a {
   padding-top: 70px;
 }
 
+#mission .content {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
+
 
 div {
-
+  display: block;
 }
 
 /* Section Two / Products */
@@ -85,11 +92,56 @@ div {
 }
 
 .flex-container-products {
-
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .product img {
   height: 200px;
   margin: 10px;
   display: block;
+}
+
+.product span {
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Section Three / Locations */
+
+#locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  padding-top: 70px;
+}
+
+#locations .flex-container{
+  margin: auto;
+  width: 1100px;
+}
+
+.location {
+  opacity: 1.0;
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-basis: 280px;
+  flex-direction: column;
+}
+
+/* Section Four / Contact */
+
+#contact {
+  text-align: center;
+}
+
+/* Section Five / Footer */
+
+.footer {
+  text-align: left;
 }
